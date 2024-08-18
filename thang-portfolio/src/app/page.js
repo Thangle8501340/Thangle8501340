@@ -1,15 +1,32 @@
+'use client';
+
 import Layout from "../components/Layout";
 import logo from "../../public/pictures/logo.png";
 import Image from "next/image";
-import TimeLine from "../components/Timeline";
+import { motion } from "framer-motion";
+
+const textVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: (delay = 0) => ({
+    opacity: 1,
+    y: 0,
+    transition: { duration: 1, delay },
+  }),
+};
+
+const textContent = [
+  { text: `"You only live once. If you do it right, that's all you need."`, className: "text-2xl", delay: 0 },
+  { text: "Thang Le", className: "text-xl pt-10", delay: 1.5 },
+  { text: "Developer, Investor, Teacher, and Learner.", className: "text-lg", delay: 2 },
+  { text: "Thank you to my family, friends, and anyone who supported me in this journey.", className: "pt-10", delay: 3.0 },
+];
 
 export default function Home() {
   return (
     <main className="flex min-h-screen text-white bg-black flex-col items-center justify-between">
-      
-      <Layout className="pt-0">
-        <div className="flex items-center justify-between w-full space-x-8"> 
-          <div className="w-1/2"> 
+      <Layout className="pt-10">
+        <div className="flex items-center justify-between w-full space-x-8">
+          <div className="w-1/2">
             <Image
               src={logo}
               alt="Thang Le"
@@ -18,22 +35,18 @@ export default function Home() {
             />
           </div>
           <div className="w-1/2">
-            <h1 className="text-2xl">"You only live once. If you do it right, that's all you</h1>
-            <h1 className="text-2xl">NEED."</h1>
-            <p className="text-xl pt-10">Thang Le</p>
-            <p className="text-lg">Developer, Investor, Teacher, and Learner.</p>
-            <p className="pt-10">
-              Thank you to my family, friends, and anyone who supported me in this journey.
-            </p>
-          </div>
-        </div>
-      </Layout>
-      
-      <Layout>  
-        <div className="flex flex-col items-center justify-center w-full py-12">
-          <p className="text-center text-6xl uppercase">Timeline</p>
-          <div className="w-full mt-8">
-            <TimeLine />
+            {textContent.map((item, index) => (
+              <motion.p
+                key={index}
+                className={item.className}
+                variants={textVariants}
+                initial="hidden"
+                animate="visible"
+                custom={item.delay}
+              >
+                {item.text}
+              </motion.p>
+            ))}
           </div>
         </div>
       </Layout>
