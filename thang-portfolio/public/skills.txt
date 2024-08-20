@@ -1,0 +1,25 @@
+{
+  "languages": [
+    { "name": "Python", "experience": 8 },
+    { "name": "Go", "experience": 2 },
+    { "name": "JavaScript", "experience": 4 },
+    { "name": "C++", "experience": 4 },
+    { "name": "HTML", "experience": 4 },
+    { "name": "CSS", "experience": 4 }
+  ],
+  "technologies": [
+    { "name": "ReactJS", "experience": 2 },
+    { "name": "NextJS", "experience": 2 },
+    { "name": "GCP", "experience": 2 },
+    { "name": "Tailwind CSS", "experience": 2 },
+    { "name": "Jira/Confluence", "experience": 2 },
+    { "name": "Docker", "experience": 2 },
+    { "name": "Kubernetes", "experience": 2 },
+    { "name": "GitHub", "experience": 4 },
+    { "name": "Figma", "experience": 2 },
+    { "name": "Node.js", "experience": 4 },
+    { "name": "Flask", "experience": 6 },
+    { "name": "Gin", "experience": 3 },
+    { "name": "FastAPI", "experience": 6 }
+  ]
+}

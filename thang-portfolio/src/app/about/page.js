@@ -8,9 +8,9 @@ export default function Home() {
       
       <Layout>  
         <div className="flex flex-col items-center justify-center w-full py-12">
-          <p className="text-center text-6xl uppercase ">Timeline</p>
+          <p className="text-center text-6xl uppercase ">Life Timeline</p>
           <div className="w-full mt-8">
-            <TimeLine />
+            <TimeLine file="/timelineData.txt"  />
           </div>
         </div>
       </Layout>
