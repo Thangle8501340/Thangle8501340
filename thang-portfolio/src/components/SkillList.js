@@ -70,7 +70,15 @@ const SkillList = () => {
       <List sx={{ bgcolor: 'black', color: 'white' }}>
 
         {/* Languages Section */}
-        <ListItem button onClick={() => handleClick('languages')}>
+        <ListItem 
+          button 
+          onClick={() => handleClick('languages')}
+          sx={{ 
+            '&:hover .MuiListItemText-primary': { // Target the text of ListItemText on hover
+              color: 'lightblue',
+            },
+          }}
+        >
           <ListItemText primary="Languages" primaryTypographyProps={{ fontSize: '1.5rem', fontWeight: 'bold' }} />
         </ListItem>
         <Collapse in={openSection === 'languages'} timeout="auto" unmountOnExit>
@@ -78,7 +86,15 @@ const SkillList = () => {
             {sortedLanguages.map((skill, index) => (
               <ListItem
                 key={index}
-                sx={{ pl: 4, mb: 2, display: 'flex', alignItems: 'center' }}
+                sx={{ 
+                  pl: 4, 
+                  mb: 2, 
+                  display: 'flex', 
+                  alignItems: 'center',
+                  '&:hover': { 
+                    color: 'lightblue',
+                  },
+                }}
                 onMouseEnter={() => setHoveredSkill(skill.name)}
                 onMouseLeave={() => setHoveredSkill(null)}
               >
@@ -108,7 +124,15 @@ const SkillList = () => {
         </Collapse>
 
         {/* Technologies Section */}
-        <ListItem button onClick={() => handleClick('technologies')}>
+        <ListItem 
+          button 
+          onClick={() => handleClick('technologies')}
+          sx={{ 
+            '&:hover .MuiListItemText-primary': { // Target the text of ListItemText on hover
+              color: 'lightblue',
+            },
+          }}
+        >
           <ListItemText primary="Technologies" primaryTypographyProps={{ fontSize: '1.5rem', fontWeight: 'bold' }} />
         </ListItem>
         <Collapse in={openSection === 'technologies'} timeout="auto" unmountOnExit>
@@ -116,7 +140,15 @@ const SkillList = () => {
             {sortedTechnologies.map((skill, index) => (
               <ListItem
                 key={index}
-                sx={{ pl: 4, mb: 2, display: 'flex', alignItems: 'center' }}
+                sx={{ 
+                  pl: 4, 
+                  mb: 2, 
+                  display: 'flex', 
+                  alignItems: 'center',
+                  '&:hover': { 
+                    color: 'lightblue',
+                  },
+                }}
                 onMouseEnter={() => setHoveredSkill(skill.name)}
                 onMouseLeave={() => setHoveredSkill(null)}
               >
