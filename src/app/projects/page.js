@@ -44,7 +44,7 @@ export default function Home() {
                 description: "A personal website that I created with React.js and Next.js",
                 language: "React, Next.js, Javascript",
                 imageUrl: person,
-                link: "https://github.com/Thangle8501340/Thangle8501340/tree/main/thang-portfolio"
+                link: "https://github.com/Thangle8501340/personal-website"
               },
               {
                 title: "Personal Financial Assistant",
