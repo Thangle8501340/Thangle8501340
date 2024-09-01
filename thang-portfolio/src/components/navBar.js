@@ -28,7 +28,7 @@ const NavBar = () => {
             <nav  >
                 <CustomLink target="_blank"href="https://linkedin.com/in/thangle1 " title="LinkedIn" className="mr-4"/>
                 <CustomLink target="_blank"href="https://github.com/Thangle8501340 " title="Github" className="mx-4"/>
-                <CustomLink target="_blank"href="" title="Resume" className="mx-4"/>
+                <CustomLink target="_blank"href="https://www.linkedin.com/in/thangle1/details/featured/1725177977496/single-media-viewer/?profileId=ACoAACtARZkBrNOSMlbUc9CaAEdTePUKyzpY8a8" title="Resume" className="mx-4"/>
             </nav>
         </header>
     )
