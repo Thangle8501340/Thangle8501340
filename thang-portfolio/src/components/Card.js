@@ -21,7 +21,7 @@ const CardComponent = ({ title, description, language, imageUrl, link, className
         '&:hover': {
           transform: 'scale(1.05)',
           '& .MuiTypography-root': {
-            color: '#C0C0C0',
+            color: '#ADD8E6',
           },
         },
       }}

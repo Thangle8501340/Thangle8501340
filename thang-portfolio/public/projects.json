@@ -1,0 +1,63 @@
+{
+    "personalProjects": [
+      {
+        "title": "Chess Engine",
+        "description": "A project that takes in Magnus Carlsen gameplay in order to predict the next move using AI",
+        "language": "Python, C++",
+        "imageUrl": "/pictures/chess.png",
+        "link": "https://github.com/Thangle8501340/Chess-Engine-C"
+      },
+      {
+        "title": "Coding Challenges",
+        "description": "All personal coding challenges that I have completed with their codes and explanations",
+        "language": "Python",
+        "imageUrl": "/pictures/code_challenge.jpg",
+        "link": "https://github.com/Thangle8501340/Coding-Questions"
+      },
+      {
+        "title": "Personal Website",
+        "description": "A personal website that I created with React.js and Next.js",
+        "language": "React, Next.js, Javascript",
+        "imageUrl": "/pictures/personal.png",
+        "link": "https://github.com/Thangle8501340/Thangle8501340/tree/main/thang-portfolio"
+      },
+      {
+        "title": "Personal Financial Assistant",
+        "description": "A project that allows users to keep track of all of their investments and plan for the future",
+        "language": "Python, Golang, React, Next.js, Javascript",
+        "imageUrl": "/pictures/finance.png",
+        "link": "https://github.com/Frinvest"
+      }
+    ],
+    "professionalProjects": [
+      {
+        "title": "Robust Messaging System",
+        "description": "A microservice that allows clinics to notify patients via SMS or email",
+        "language": "Typescript",
+        "imageUrl": "/pictures/message.png",
+        "link": "https://github.com/Thangle8501340/Chess-Engine-C"
+      },
+      {
+        "title": "Patient Facing Application",
+        "description": "Progressive Web Application that allows patients to manage appointments, copay, and documents.",
+        "language": "Golang, React, JavaScript",
+        "imageUrl": "/pictures/patient.png",
+        "link": "https://github.com/Thangle8501340/Coding-Questions"
+      },
+      {
+        "title": "Automated Chatbot",
+        "description": "An automated AI chatbot to help patients manage their appointments",
+        "language": "Golang",
+        "imageUrl": "/pictures/chatbot.png",
+        "link": "https://github.com/Thangle8501340/Thangle8501340/tree/main/thang-portfolio"
+      },
+      {
+        "title": "Medical Billing Rules Engine",
+        "description": "A medical billing rules engine to verify patients' eligibility for insurance plans",
+        "language": "Python",
+        "imageUrl": "/pictures/billing.png",
+        "link": "https://github.com/Frinvest"
+      }
+    ]
+  }
+  
