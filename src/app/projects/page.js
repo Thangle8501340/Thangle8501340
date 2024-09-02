@@ -80,7 +80,7 @@ export default function Home() {
                 description: "A microservice that allows clinics to notify patients via SMS or email",
                 role: "Backend Developer",
                 language: "Typescript",
-                link: "https://github.com/Thangle8501340/Chess-Engine-C"
+                link: "https://docs.google.com/presentation/d/1JxtlVux2_AiJC3rpf-oy-X4p-TFVShbbiXWnRXvo2q4/edit?usp=sharing"
               },
               {
                 title: "Patient Facing Application",
